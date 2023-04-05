@@ -80,6 +80,18 @@
     float: right;
     cursor: pointer;
 }
+.article1 {
+    align-self: center;
+    width: 100%
+}
+ul {
+    list-style-type: none;
+    border: 1px solid black;
+}
+a {
+    color: blue;
+    font-style: underline;
+}
 .footer {
     width: 100%;
     overflow: hidden;
