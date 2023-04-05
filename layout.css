@@ -30,9 +30,36 @@
     -webkit-columns: 2;
     -moz-columns: 2;
 }
+/* logo picture */
 .home {
-    width: 10%;
+    width: 50%;
 }
+.header {
+    width: 100%;
+    overflow: hidden;
+}
+.header a {
+    float: left;
+    padding: 14px 16px;
+    color: black;
+    text-align: left;
+    text-decoration: none;
+    font-size: 17px;
+    width: 20%;
+}
+.header a.sign-in {
+    float: right;
+    background-color: grey;
+    border: 1px solid black;
+    color: black;
+    padding: 20px 34px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
 .top-menu {
     width: 100%;
     background-color: #555;
@@ -45,4 +72,10 @@
     text-decoration: none;
     font-size: 17px;
     width: 20%;
+}
+.top-menu a:hover {
+    background-color: #000;
+}
+.top-menu a.active {
+    background-color: #04AA6D;
 }
