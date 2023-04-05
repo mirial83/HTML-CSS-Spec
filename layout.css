@@ -79,3 +79,16 @@
 .top-menu a.active {
     background-color: #04AA6D;
 }
+.footer {
+    width: 100%;
+    overflow: hidden;
+}
+.footer a {
+    float: left;
+    padding: 14px 16px;
+    color: black;
+    text-align: right;
+    text-decoration: none;
+    font-size: 17px;
+    width: 12%;
+}
